@@ -1,0 +1,7 @@
+.todo-list__checklist {
+  height: 300px;
+  margin: 20px 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+}

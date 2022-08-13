@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>ToDo List</title>
+</head>
+<body class="root">
+  <header class="header">
+    <h1 class="header__title">ToDo List</h1>
+  </header>
+  <main class="content">
+    <section class="todo-list">
+      <form class="todo-list__add-form">
+        <input class="todo-list__input" type="text" placeholder="Добавить дело" minlength="2" required>
+        <button class="todo-list__add-button" type="submit">+</button>
+      </form>
+      <ul class="todo-list__checklist">
+        <template id="todo-list__item">
+          <li class="todo-list__item">
+            <p class="todo-list__item-link"></p>
+            <button class="todo-list__delete-button" type="button"></button>
+          </li>
+        </template>
+      </ul>
+      <input class="todo-list__searcher" type="text" placeholder="Что ищем?" />
+      <div class="todo-list__separator"></div>
+    </section>
+    <section class="todo-edit">
+      <form class="todo-edit__form">
+        <input class="todo-edit__title" type="text" minlength="2" required />
+        <textarea class="todo-edit__text" placeholder="Описание дела"></textarea>
+        <select class="todo-edit__status-btn">
+			    <option name="waiting" value="waiting">Ожидает</option>
+			    <option value="progress">В процессе</option>
+			    <option value="done">Выполнено</option>
+		    </select>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__author">&copy; 2022. Семён Толстогузов</p>
+    <p class="footer__author">semen.tolstoguzov@mail.ru</p>
+  </footer>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

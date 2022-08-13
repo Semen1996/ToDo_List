@@ -1,0 +1,6 @@
+.todo-edit__form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-top: 6px;
+}

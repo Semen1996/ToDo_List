@@ -1,0 +1,12 @@
+.todo-list__separator {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+}
+
+.todo-list__separator:hover {
+  cursor: col-resize;
+}

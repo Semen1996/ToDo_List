@@ -1,0 +1,11 @@
+.todo-list__item {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-decoration: none;
+}

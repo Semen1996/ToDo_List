@@ -1,0 +1,9 @@
+.todo-edit__submit {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+  padding: 0;
+  border: 0;
+  font-size: 24px;
+  font-weight: 400;
+}

@@ -1,0 +1,7 @@
+.content {
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 35px auto 0;
+}

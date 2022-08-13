@@ -1,0 +1,14 @@
+.todo-list__delete-button {
+  width: 35px;
+  height: 35px;
+  margin-top: 2px;
+  margin-right: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: red;
+  background-image: url('../../../images/delete-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

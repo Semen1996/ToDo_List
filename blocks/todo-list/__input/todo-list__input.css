@@ -1,0 +1,9 @@
+.todo-list__input {
+  width: 100%;
+  min-height: 44px;
+  box-sizing: border-box;
+  padding: 0 47px 0 20px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
