@@ -16,6 +16,7 @@
 @import url(../blocks/todo-list/__item/_status/todo-list__item_status_done.css);
 @import url(../blocks/todo-list/__item-link/todo-list__item-link.css);
 @import url(../blocks/todo-list/__delete-button/todo-list__delete-button.css);
+@import url(../blocks/todo-list/__searcher/todo-list__searcher.css);
 @import url(../blocks/todo-list/__separator/todo-list__separator.css);
 @import url(../blocks/todo-edit/todo-edit.css);
 @import url(../blocks/todo-edit/__form/todo-edit__form.css);
